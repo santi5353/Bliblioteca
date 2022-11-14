@@ -1,0 +1,24 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    background-size: cover;
+}
+
+img{
+    object-fit: cover;
+}
+
+.box-0:before{
+content: '';
+position: absolute;
+overflow: hidden;
+width: 2000px;
+height: 3000px;
+border-radius: 50%;
+background: linear-gradient(-45deg,#4481eb,#04befe);
+}
